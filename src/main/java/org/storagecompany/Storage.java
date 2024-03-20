@@ -1,31 +1,55 @@
 package org.storagecompany;
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 import org.storagecompany.item.Item;
-import java.util.HashSet;
-import java.util.Objects;
+import java.util.*;
 
 @Component
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class Storage {
     @Getter
-    private HashSet<Item> items = new HashSet<>();
-    private Worker worker1;
-    private Worker worker2;
+    HashSet<Item> items = new HashSet<>();
+    final Queue<Item> itemQueue = new LinkedList<>();
+    final Queue<Worker> workerQueue = new LinkedList<>();
+    final Worker worker1;
+    final Worker worker2;
 
     public Storage(@Qualifier("mishka") Worker worker1, @Qualifier("zelya") Worker worker2) {
         this.worker1 = worker1;
         this.worker2 = worker2;
     }
 
-    public void addItems(Item item) {
+    public void acceptItems(List<Item> newItems) {
+        workerQueue.addAll(List.of(worker1, worker2));
+        itemQueue.addAll(newItems);
+        int index = 0; // Для перебора каждой второй вещи, которая будет сломана
+        while (!itemQueue.isEmpty()) {
+            if (index % 2 == 1) {
+                Objects.requireNonNull(workerQueue.peek()).breakItem(Objects.requireNonNull(itemQueue.peek()));
+            }
+            Objects.requireNonNull(workerQueue.poll()).acceptItem(this, Objects.requireNonNull(itemQueue.poll()));
+            if (workerQueue.peek() == worker1) {
+                workerQueue.offer(worker2);
+            } else {
+                workerQueue.offer(worker1);
+            }
+            index++;
+        }
+        workerQueue.clear();
+    }
+
+    public void addItem(Item item) {
         items.add(item);
     }
 
-    public void removeItem(Item item) {
-        System.out.println("Товар " + item.getClass().getSimpleName() + " пропал на складе");
-        items.remove(item);
+    public void removeItems(List<Item> removeItems) {
+        removeItems.forEach(item -> items.remove(item));
+        System.out.println("На складе пропало вещей: " +
+                removeItems.size() + " шт.");
     }
 
     @Override

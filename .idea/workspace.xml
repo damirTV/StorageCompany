@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155734bc-3694-4d40-8c03-4f2176a37289" name="Changes" comment="Start project">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Buyer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/CompanyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Absolut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Aist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Deliverbly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/item/Bicycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/item/Vodka.java" afterDir="false" />
+    <list default="true" id="155734bc-3694-4d40-8c03-4f2176a37289" name="Changes" comment="Проект завершен">
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/item/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Buyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Absolut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Absolut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Aist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Aist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Deliverbly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Deliverbly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;damirTV&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3145736d-63b7-402c-89c4-3256933c6e19" />
+        <option name="url" value="https://github.com/damirTV/StorageCompany" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -57,7 +65,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "C:/Users/Profit77/Documents/Java/google_checks.xml",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -97,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710785035023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Проект завершен">
+      <option name="closed" value="true" />
+      <created>1710860001569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710860001569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Start project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start project" />
+    <MESSAGE value="Проект завершен" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проект завершен" />
   </component>
 </project>

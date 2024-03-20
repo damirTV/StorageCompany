@@ -3,17 +3,21 @@ package org.storagecompany;
 import lombok.Getter;
 import org.storagecompany.item.Item;
 
+@Getter
 public class Worker {
-    @Getter
-    private String name;
+    private final String name;
 
     public Worker(String name) {
         this.name = name;
     }
 
     public void breakItem(Item item) {
-        System.out.println(this.getName() + ": ломаю товар " + item.getClass().getSimpleName());
         item.setIsBroken(true);
+        System.out.println(this.getName() + " сломал товар " + item.getClass().getSimpleName());
+    }
+
+    public void acceptItem(Storage storage, Item item) {
+        storage.addItem(item);
     }
 
     @Override

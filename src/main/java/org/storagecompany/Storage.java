@@ -13,8 +13,6 @@ import java.util.*;
 public class Storage {
     @Getter
     HashSet<Item> items = new HashSet<>();
-    final Queue<Item> itemQueue = new LinkedList<>();
-    final Queue<Worker> workerQueue = new LinkedList<>();
     final Worker worker1;
     final Worker worker2;
 
@@ -24,8 +22,8 @@ public class Storage {
     }
 
     public void acceptItems(List<Item> newItems) {
-        workerQueue.addAll(List.of(worker1, worker2));
-        itemQueue.addAll(newItems);
+        Queue<Worker> workerQueue = new LinkedList<>(List.of(worker1, worker2)); // Работники работают по-очереди
+        Queue<Item> itemQueue = new LinkedList<>(newItems); // Товары находятся в очереди на приемку
         int index = 0; // Для перебора каждой второй вещи, которая будет сломана
         while (!itemQueue.isEmpty()) {
             if (index % 2 == 1) {

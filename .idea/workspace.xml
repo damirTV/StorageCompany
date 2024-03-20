@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155734bc-3694-4d40-8c03-4f2176a37289" name="Changes" comment="Проект завершен">
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="155734bc-3694-4d40-8c03-4f2176a37289" name="Changes" comment="Проект выполнен с учетом замечаний от Юры в чате">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Buyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Buyer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Absolut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Absolut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Aist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Aist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Deliverbly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/storagecompany/importer/Deliverbly.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Profit77/Documents/Java/google_checks.xml",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.infernus.idea.checkstyle.CheckStyleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Profit77/Documents/Java/google_checks.xml&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.storagecompany.Runner" />
@@ -117,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710860001569</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Проект выполнен с учетом замечаний от Юры в чате">
+      <option name="closed" value="true" />
+      <created>1710947868497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710947868497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +135,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Start project" />
     <MESSAGE value="Проект завершен" />
-    <option name="LAST_COMMIT_MESSAGE" value="Проект завершен" />
+    <MESSAGE value="Проект выполнен с учетом замечаний от Юры в чате" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проект выполнен с учетом замечаний от Юры в чате" />
   </component>
 </project>
